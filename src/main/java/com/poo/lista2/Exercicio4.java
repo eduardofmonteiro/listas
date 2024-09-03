@@ -34,7 +34,5 @@ public class Exercicio4 {
         else{
             System.out.println("Olá "+ nome + " "+ sobrenome + ", sua entrada está permitida.");
         }
-        
-        leia.close();
     }
 }

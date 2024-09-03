@@ -24,7 +24,5 @@ public class Exercicio7 {
          }else{
             System.out.println(numero1 + " NÃO é divisível por " + numero2 + ".");
         }
-        
-        leia.close();
     }
 }

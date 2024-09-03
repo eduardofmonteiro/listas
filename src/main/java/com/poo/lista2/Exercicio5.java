@@ -59,8 +59,6 @@ public class Exercicio5 {
                 System.out.println("A senha informada não esta correta, tente novamente.");
                 System.out.println("--------------------------------------------------------");
             }
-            
-            leia.close();
         }
     }
 }

@@ -55,43 +55,43 @@ public class Exercicio8 {
                     chances--;
                     System.out.println("Resposta errada, você tem apenas "+chances+"chances restantes.");
                 }
-          }
-          if(chances > 0){
-            System.out.println("Qual é o nome do famoso game de simulação de vida desenvolvido pela Maxis?"+
+            }
+            if(chances > 0){
+                System.out.println("Qual é o nome do famoso game de simulação de vida desenvolvido pela Maxis?"+
+                "\n"+
+                "a) Call of Duty "+
+                "b) The Sims "+
+                "c) inZoi "+
+                "d) Roblox ");
+                char resposta4 = leia.next().toLowerCase().charAt(0);
+                if(resposta4 == 'b'){
+                    pontuacao++;
+                }else{
+                    chances--;
+                    System.out.println("Resposta errada, você tem apenas "+chances+"chances restantes.");
+                }
+        }
+        if(chances > 0){
+            System.out.println("Qual é o nome do famoso jogo de aventura e exploração onde o personagem principal é um encanador que deve salvar a Princesa dos vilões?"+
             "\n"+
-            "a) Call of Duty "+
-            "b) The Sims "+
-            "c) inZoi "+
-            "d) Roblox ");
-            char resposta4 = leia.next().toLowerCase().charAt(0);
-            if(resposta4 == 'b'){
+            "a) Super Mario Bros "+
+            "b) Fortnite "+
+            "c) Five Nights at Freddys "+
+            "d) Amnesia ");
+            char resposta5 = leia.next().toLowerCase().charAt(0);
+            if(resposta5 == 'a'){
                 pontuacao++;
             }else{
                 chances--;
-                System.out.println("Resposta errada, você tem apenas "+chances+"chances restantes.");
+                System.out.println("Resposta errada, você tem apenas "+chances+" chances restantes.");
             }
-    }
-    if(chances > 0){
-        System.out.println("Qual é o nome do famoso jogo de aventura e exploração onde o personagem principal é um encanador que deve salvar a Princesa dos vilões?"+
-        "\n"+
-        "a) Super Mario Bros "+
-        "b) Fortnite "+
-        "c) Five Nights at Freddys "+
-        "d) Amnesia ");
-        char resposta5 = leia.next().toLowerCase().charAt(0);
-        if(resposta5 == 'a'){
-            pontuacao++;
-        }else{
-            chances--;
-            System.out.println("Resposta errada, você tem apenas "+chances+" chances restantes.");
-        }
 
+            }
+            if(chances ==0){
+            System.out.println("Você esgotou suas chances! Fim de jogo.");
+            }else{
+            System.out.println("Sua pontuação final: "+pontuacao+" de 5.");
+            } 
         }
-        if(chances ==0){
-        System.out.println("Você esgotou suas chances! Fim de jogo.");
-        }else{
-        System.out.println("Sua pontuação final: "+pontuacao+" de 5.");
-        }
-        leia.close();}
     }
 }

@@ -52,7 +52,6 @@ public class Exercicio6 {
                 System.out.println("Você está reprovado.");
             }
         }
-        leia.close();
     }
 }
 

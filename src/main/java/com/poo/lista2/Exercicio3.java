@@ -29,6 +29,5 @@ public class Exercicio3 {
         }else{
             System.out.println("Fila comum!");
         }
-        leia.close();
     }
 }

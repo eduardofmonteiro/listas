@@ -21,6 +21,5 @@ public class Exercicio2 {
         }else{
             System.out.println(n2 +" é maior que "+ n1);
         }        
-        leia.close();
     }
 }

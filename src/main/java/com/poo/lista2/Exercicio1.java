@@ -23,6 +23,5 @@ public class Exercicio1 {
                 System.out.println("O número é impar!");
             }
         }
-        leia.close();
     }
 }
