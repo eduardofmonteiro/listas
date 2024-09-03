@@ -19,6 +19,5 @@ public class Exercicio1 {
         soma = (num1 + num2);
         System.out.println(num1+" + "+num2+" = "+soma);
 
-        leia.close();
     }
 }

@@ -34,7 +34,6 @@ public class Exercicio7 {
 
         System.out.println("Media do aluno(a) "+ aluno + " na disciplina: " + disciplina + " é "+ ((nota_1+nota_2+nota_3+nota_4)/4));
 
-        leia.close();
     }
 
 }

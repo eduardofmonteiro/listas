@@ -15,7 +15,6 @@ public class Exercicio5 {
         preco = leia.nextDouble();            
 
         System.out.println("O preço do terreno é de R$"+preco * area);
-        
-        leia.close();
+
     }
 }

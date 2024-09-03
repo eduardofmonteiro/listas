@@ -15,6 +15,5 @@ public class Exercicio8 {
 
         System.out.printf("A temperatura em Celsius é: %.2f",Celsius);
    
-        leia.close();
     }
 }

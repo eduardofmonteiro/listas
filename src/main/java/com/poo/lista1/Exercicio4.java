@@ -12,6 +12,5 @@ public class Exercicio4 {
 
     System.out.println("O antecessor é: "+(n1-1)+"\nE o sucessor é:"+(n1+1));   
     
-    leia.close();
     }
 }

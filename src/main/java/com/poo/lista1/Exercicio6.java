@@ -18,6 +18,5 @@ public class Exercicio6 {
 
         System.out.println("O consumo médio em (Km/l) foi: "+ consumo_medio);
 
-        leia.close();
     }
 }

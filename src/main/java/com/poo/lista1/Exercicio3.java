@@ -12,7 +12,6 @@ public class Exercicio3 {
         num1 = leia.nextFloat();
     
         System.out.println("O valor convertido será: $" + (num1 / 5.25));
-        
-        leia.close();
+
     }
 }

@@ -15,7 +15,6 @@ public class Exercicio2 {
         sobrenome = leia.nextLine();
 
         System.out.print("Olá, "+nome+" "+sobrenome);
-   
-        leia.close();
+
     }
 }
