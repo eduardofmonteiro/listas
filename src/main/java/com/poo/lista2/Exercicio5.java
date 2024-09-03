@@ -50,9 +50,13 @@ public class Exercicio5 {
                 System.out.println("Login realizado com sucesso.");
                 System.out.println("----------------------------");
                 loginCorreto = true;
-            } else {
+            } else if (!cad_login.equals(login)){
                 System.out.println("\n--------------------------------------------------------");
-                System.out.println("Os dados informados não estão corretos, tente novamente.");
+                System.out.println("O login informado não esta correto, tente novamente.");
+                System.out.println("--------------------------------------------------------");
+            } else if (!cad_senha.equals(senha)){
+                System.out.println("\n--------------------------------------------------------");
+                System.out.println("A senha informada não esta correta, tente novamente.");
                 System.out.println("--------------------------------------------------------");
             }
             

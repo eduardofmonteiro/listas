@@ -24,7 +24,7 @@ public class Exercicio6 {
         //Variável da média somando as notas e dividindo por 2 notas
         float media_inicial = (nota1 + nota2)/2;
         
-        if (media_inicial < 60) {
+        if (media_inicial < 6) {
             System.out.println("Você está em recuperação");
             System.out.println("Digite sua nota de recuperação: ");
             nota3=leia.nextFloat();
@@ -42,7 +42,7 @@ public class Exercicio6 {
 
             float media_final = (nota1 + nota2) / 2;
             
-            if (media_final >= 60) {
+            if (media_final >= 6) {
                 System.out.println("Você está aprovado.");
                 
             } else {
