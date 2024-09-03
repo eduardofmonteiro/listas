@@ -14,7 +14,7 @@ public class Exercicio6 {
         Scanner leia = new Scanner(System.in);
         
         //Variáveis iniciais das notas
-        float nota1=0, nota2=0, nota3=0;
+        float nota1, nota2, nota3;
 
         System.out.print("Digite a nota do primeiro bimestre: ");
         nota1=leia.nextFloat();
@@ -24,7 +24,10 @@ public class Exercicio6 {
         //Variável da média somando as notas e dividindo por 2 notas
         float media_inicial = (nota1 + nota2)/2;
         
-        if (media_inicial < 6) {
+        if (media_inicial >= 6) {
+            System.out.print("Você está aprovado.");
+            
+        }else{
             System.out.println("Você está em recuperação");
             System.out.println("Digite sua nota de recuperação: ");
             nota3=leia.nextFloat();
@@ -49,8 +52,11 @@ public class Exercicio6 {
                 System.out.println("Você está reprovado.");
             }
         }
-        System.out.print("Você está aprovado.");
-
         leia.close();
     }
 }
+
+
+
+
+            
