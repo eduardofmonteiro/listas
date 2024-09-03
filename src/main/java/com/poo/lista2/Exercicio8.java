@@ -16,10 +16,10 @@ public class Exercicio8 {
 
           System.out.println("Qual é o nome do famoso personagem pequeno que é elfo doméstico em Harry Potter?" +
           "\n"+
-          "a) Yoda"+
-          "b) Mago"+
-          "c) Elfo"+
-          "d) Dobby");
+          "a) Yoda "+
+          "b) Mago "+
+          "c) Elfo "+
+          "d) Dobby ");
           char resposta1 = leia.next().toLowerCase().charAt(0);
           if(resposta1 == 'd'){
             pontuacao ++;
@@ -30,10 +30,10 @@ public class Exercicio8 {
           if(chances > 0){
             System.out.println("Qual é o nome do herói que usa um escudo redondo nos filmes da Marvel?"+
             "\n"+
-            "a) Homem de ferro"+
-            "b) Hulk"+
-            "c) Mario"+
-            "d) Capitão América");
+            "a) Homem de ferro "+
+            "b) Hulk "+
+            "c) Mario "+
+            "d) Capitão América ");
             char resposta2 = leia.next().toLowerCase().charAt(0);
             if(resposta2 == 'd'){
                 pontuacao++;
@@ -44,10 +44,10 @@ public class Exercicio8 {
             if(chances > 0){
                 System.out.println("Qual é o nome do universo de super-heróis criado por Stan Lee e Jack Kirby que inclui personagens como Spider-Man e Iron Man?"+
                 "\n"+
-                "a) DC"+
-                "b) Harry Potter"+
-                "c) Marvel"+
-                "d) Senhor dos Anéis");
+                "a) DC "+
+                "b) Harry Potter "+
+                "c) Marvel "+
+                "d) Senhor dos Anéis ");
                 char resposta3 = leia.next().toLowerCase().charAt(0);
                 if(resposta3 == 'c'){
                     pontuacao++;
@@ -59,10 +59,10 @@ public class Exercicio8 {
           if(chances > 0){
             System.out.println("Qual é o nome do famoso game de simulação de vida desenvolvido pela Maxis?"+
             "\n"+
-            "a) Call of Duty"+
-            "b) The Sims"+
-            "c) inZoi"+
-            "d) Roblox");
+            "a) Call of Duty "+
+            "b) The Sims "+
+            "c) inZoi "+
+            "d) Roblox ");
             char resposta4 = leia.next().toLowerCase().charAt(0);
             if(resposta4 == 'b'){
                 pontuacao++;
@@ -74,16 +74,16 @@ public class Exercicio8 {
     if(chances > 0){
         System.out.println("Qual é o nome do famoso jogo de aventura e exploração onde o personagem principal é um encanador que deve salvar a Princesa dos vilões?"+
         "\n"+
-        "a) Super Mario Bros"+
-        "b) Fortnite"+
-        "c) Five Nights at Freddys"+
-        "d) Amnesia");
+        "a) Super Mario Bros "+
+        "b) Fortnite "+
+        "c) Five Nights at Freddys "+
+        "d) Amnesia ");
         char resposta5 = leia.next().toLowerCase().charAt(0);
-        if(resposta5 == 'b'){
+        if(resposta5 == 'a'){
             pontuacao++;
         }else{
             chances--;
-            System.out.println("Resposta errada, você tem apenas "+chances+"chances restantes.");
+            System.out.println("Resposta errada, você tem apenas "+chances+" chances restantes.");
         }
 
         }
