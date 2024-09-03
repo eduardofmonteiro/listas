@@ -19,10 +19,10 @@ public class Exercicio7 {
         System.out.println("Digite o segundo número: ");
         numero2 = leia.nextInt();
         if(numero1%numero2 == 0){
-            System.out.println("O primeiro número informado é divisível pelo segundo número informado.");
+            System.out.println(numero1 + " é divisível por " + numero2 + ".");
 
          }else{
-            System.out.println("O primeiro número informado NÃO é divisível pelo segundo número informado.");
+            System.out.println(numero1 + " NÃO é divisível por " + numero2 + ".");
         }
         
         leia.close();
