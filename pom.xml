@@ -8,10 +8,10 @@
 		<version>3.3.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.poo.exerciciospoo</groupId>
-	<artifactId>exercicioslistas</artifactId>
+	<groupId>com.poo</groupId>
+	<artifactId>listas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>exercicioslistas</name>
+	<name>listas</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
